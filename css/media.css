@@ -1,0 +1,170 @@
+@media screen and (max-width: 1408px){
+    .cards__wrap{
+        flex-wrap: wrap;
+        gap: 50px;
+        max-width: 800px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .header__nav{
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .nav__menu{
+        flex-wrap: wrap;
+    }
+
+    .footer__wrap{
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .footer__wrap-menu-link{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1105px){
+   
+    .review__wrap-img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .review__wrap-p{
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .review__wrap-h{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .banner img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .review__wrap{
+        flex-direction: column;
+    }
+
+    .review__wrap-texts{
+        max-width: 1110px;
+        width: 100%;
+    }
+
+    
+    .review__wrap-img{
+        object-fit: cover;
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }  
+
+    .review__wrap-h{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .nav__menu{
+        flex-wrap: wrap;
+    }
+
+    .footer__wrap-menu{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .nav__menu{
+        max-width: 400px;
+    }
+
+    .header__nav{
+        gap: 110px;
+    }
+
+    .footer__wrap-menu{
+        max-width: 400px;
+    }
+
+    .footer__wrap{
+        gap: 110px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .cards__wrap{
+        gap:30px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .header__nav{
+        gap: 35px;
+    }
+
+    .footer__wrap{
+        gap: 35px;
+    }
+
+    .footer__wrap-menu-link a{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .menu__link a{
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .header__nav{
+        flex-direction: column;
+    }
+
+    .footer__wrap{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .review__wrap-p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .review__wrap-h{
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .cards__wrap img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .card__party-h{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .card__party-p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
